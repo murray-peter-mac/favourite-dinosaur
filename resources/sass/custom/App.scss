@@ -1,0 +1,32 @@
+.canvas-container{
+    position: absolute !important;
+    z-index: 0 !important;
+    *{
+        z-index: inherit !important;
+    }
+
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #22333B;
+
+    transition: background-color 1s ease;
+
+    &.Trex{
+        background-color: #788475;
+    }
+    &.Pistosaur{
+        background-color: #22333B;
+    }
+    &.Robotic{
+        background-color: #251F18;
+    }
+    &.Lavargh{
+        background-color: #0a0903;
+    }
+
+}
+.top-nav-container, .side-nav-container{
+    z-index: 1 !important;
+}
