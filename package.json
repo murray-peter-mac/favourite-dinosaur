@@ -27,7 +27,7 @@
     "dependencies": {
         "react-loading": "^2.0.3",
         "react-three-fiber": "^4.2.10",
-        "three": "^0.117.1",
+        "three": "^0.137.0",
         "zustand": "^2.2.3"
     }
 }
